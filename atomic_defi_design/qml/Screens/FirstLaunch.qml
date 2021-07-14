@@ -83,7 +83,7 @@ SetupPage {
                     background.border.width: 1
                     background.radius: 25
                     field.echoMode: TextField.Password
-                    field.font: field.echoMode === TextField.Password ? field.text === "" ? theme.textType.body1 : theme.textType.head5 : theme.textType.head6
+                    field.font: theme.textType.body1 
                     field.horizontalAlignment: Qt.AlignLeft
                     field.leftPadding: 75
                     field.rightPadding: 60
@@ -193,7 +193,7 @@ SetupPage {
             Layout.fillWidth: true
             horizontalAlignment: Qt.AlignLeft
             Layout.minimumWidth: 350
-            leftPadding: 10
+            leftPadding: 20
             text: qsTr("New Wallet")
             Layout.preferredHeight: 50
             radius: 8
@@ -205,7 +205,7 @@ SetupPage {
             text: qsTr("Recover Wallet")
             horizontalAlignment: Qt.AlignLeft
             backgroundColor: theme.accentColor
-            leftPadding: 10
+            leftPadding: 20
             radius: 8
             Layout.fillWidth: true
             Layout.preferredHeight: 50
